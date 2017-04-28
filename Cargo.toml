@@ -1,0 +1,6 @@
+[package]
+name = "life_game_in_rust"
+version = "0.1.0"
+authors = ["hogehoge1298 <hogehoge1298@gmail.com>"]
+
+[dependencies]
