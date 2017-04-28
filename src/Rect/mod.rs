@@ -3,10 +3,24 @@ pub fn hello(){
 }
 
 pub struct RectActor{
-    x: f64,
-    y: f64,
-    width: f64,
-    height: f64,
-    color: [f64; 4],
-    rotation: f64
+    pub x: f64,
+    pub y: f64,
+    pub width: f64,
+    pub height: f64,
+    pub color: [f32; 4],
+    pub rotation: f64
+}
+
+impl RectActor {
+     pub fn new(_x:f64, _y:f64, _w: f64, _h:f64, _c:[f32;4], _r:f64) -> Self
+     {
+         RectActor{
+             x: _x,
+             y: _y,
+             width: _w,
+             height: _h,
+             color: _c,
+             rotation: _r
+         }
+     }
 }
